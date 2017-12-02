@@ -5,9 +5,10 @@ const db = require("../config/db")
 class Question{
   static CreateTable(){
     return new Promise (
-      function(reslove){
+      function(resolve){
         //db.run("CREATE TABLE questions(id INTEGER PRIMARY KEY, questions TEXT)",
-        funtion(){resolve("ABC")})
+        //funtion(){resolve("ABC")})
+        resolve("ABC")
       }
     )
   }
