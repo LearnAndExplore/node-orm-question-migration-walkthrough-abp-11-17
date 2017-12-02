@@ -8,7 +8,7 @@ class Question{
       function(resolve){
         console.log("I am running")
         db.run("CREATE TABLE questions(id INTEGER PRIMARY KEY, questions TEXT)",
-        funtion(){resolve("ABC")
+        function(){resolve("ABC")
       })
       console.log("I finished running")
         // resolve("ABC")
