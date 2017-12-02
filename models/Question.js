@@ -6,9 +6,9 @@ class Question{
   static CreateTable(){
     return new Promise (
       function(resolve){
-        //db.run("CREATE TABLE questions(id INTEGER PRIMARY KEY, questions TEXT)",
-        //funtion(){resolve("ABC")})
-        resolve("ABC")
+        db.run("CREATE TABLE questions(id INTEGER PRIMARY KEY, questions TEXT)",
+        funtion(){resolve("ABC")})
+        // resolve("ABC")
       }
     )
   }
